@@ -25,6 +25,12 @@ class CatalogTests(unittest.TestCase):
             self.assertNotIn(repo.lower(), seen)
             seen.add(repo.lower())
             self.assertTrue(entry.get("desc") is not None)
+            source = entry.get("source_url")
+            verified = entry.get("last_verified_date")
+            if source or verified:
+                self.assertTrue(source and verified)
+                self.assertTrue(str(source).startswith("https://github.com/"))
+                self.assertRegex(str(verified), r"^\d{4}-\d{2}-\d{2}$")
             meta = entry.get("meta")
             if meta:
                 self.assertIsInstance(meta["stargazers_count"], int)

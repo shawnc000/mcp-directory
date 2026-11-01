@@ -65,7 +65,6 @@ def _snapshot_repo(entry: dict) -> dict:
         "pushed_at": meta.get("pushed_at"),
         "license": meta.get("license") or {},
         "topics": meta.get("topics") or [],
-        "html_url": f"https://github.com/{repo_name}",
     }
 
 
@@ -74,8 +73,10 @@ def fetch_one(entry: dict, cache: Path | None, fetched_at: datetime, translation
     desc_snapshot = entry.get("desc") or ""
     desc_zh = translations.get(repo_name) or entry.get("desc_zh") or ""
     try:
-        repo = fetch_repository(repo_name, cache)
+        repo, verified_on = fetch_repository(repo_name, cache)
         readme, readme_error = fetch_readme(repo["full_name"], cache)
+        raw_url = repo.get("html_url")
+        source_url = raw_url if isinstance(raw_url, str) else None
         tool = tool_from_api(
             repo,
             entry["category"],
@@ -85,7 +86,10 @@ def fetch_one(entry: dict, cache: Path | None, fetched_at: datetime, translation
             desc_zh=desc_zh,
             desc_snapshot=desc_snapshot,
             catalog_name=entry.get("name"),
+            catalog_repo=repo_name,
             data_source="github-api",
+            source_url=source_url,
+            last_verified_date=verified_on,
         )
         return tool, None
     except (KeyError, ValueError, TypeError) as error:
@@ -103,7 +107,10 @@ def fetch_one(entry: dict, cache: Path | None, fetched_at: datetime, translation
                 desc_zh=desc_zh,
                 desc_snapshot=desc_snapshot,
                 catalog_name=entry.get("name"),
+                catalog_repo=repo_name,
                 data_source="catalog-snapshot",
+                source_url=None,
+                last_verified_date=None,
             )
         except (KeyError, ValueError, TypeError) as snapshot_error:
             return None, f"{repo_name}: {snapshot_error}"
@@ -150,9 +157,31 @@ def main() -> int:
     assets = ROOT / "directory"
     site = Site(origin=origin, base=base, fetched_at=fetched_at, tools=tools)
     render_site(site, output, assets, min_tools=50)
-    live = sum(1 for tool in tools if tool.data_source == "github-api")
-    print(f"{len(tools)} tools written to {output} at {site.fetched_stamp} ({live} live, {len(tools) - live} snapshot)")
+    _write_verification(ROOT / "data" / "catalog.json", tools)
+    verified = sum(1 for tool in tools if tool.source_url and tool.last_verified_date)
+    print(
+        f"{len(tools)} tools written to {output} at {site.fetched_stamp} "
+        f"({verified} verified, {len(tools) - verified} unverified)"
+    )
     return 0
+
+
+def _write_verification(path: Path, tools: list) -> None:
+    """Record only URLs and dates produced by a live GitHub confirmation."""
+    by_catalog = {}
+    for tool in tools:
+        key = (tool.catalog_repo or tool.full_name).lower()
+        by_catalog[key] = tool
+    entries = json.loads(path.read_text(encoding="utf-8"))
+    for entry in entries:
+        tool = by_catalog.get(entry["repo"].lower())
+        if tool and tool.source_url and tool.last_verified_date:
+            entry["source_url"] = tool.source_url
+            entry["last_verified_date"] = tool.last_verified_date
+        else:
+            entry["source_url"] = None
+            entry["last_verified_date"] = None
+    path.write_text(json.dumps(entries, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

@@ -7,6 +7,7 @@ import os
 import time
 import urllib.error
 import urllib.request
+from datetime import datetime, timezone
 from pathlib import Path
 
 USER_AGENT = "mcp-directory (https://github.com/shawnc000/mcp-directory)"
@@ -63,10 +64,17 @@ def _cache_path(cache_dir: Path | None, full_name: str, kind: str) -> Path | Non
     return cache_dir / f"{safe}.{kind}.json"
 
 
-def fetch_repository(full_name: str, cache_dir: Path | None = None) -> dict:
+def fetch_repository(full_name: str, cache_dir: Path | None = None) -> tuple[dict, str | None]:
+    """Return the repo payload and the UTC date of the live response that confirmed it.
+
+    A cache entry counts only when it records ``verified_on`` from an earlier live
+    response. Older cache files do not contain that date, so they are not reused.
+    """
     path = _cache_path(cache_dir, full_name, "repo")
     if path and path.exists():
-        return json.loads(path.read_text(encoding="utf-8"))
+        cached = json.loads(path.read_text(encoding="utf-8"))
+        if isinstance(cached, dict) and isinstance(cached.get("payload"), dict) and cached.get("verified_on"):
+            return cached["payload"], str(cached["verified_on"])
     status, payload = _request_retry(
         f"{API}/repos/{full_name}",
         "application/vnd.github+json",
@@ -74,10 +82,11 @@ def fetch_repository(full_name: str, cache_dir: Path | None = None) -> dict:
     if status != 200:
         raise GitHubError(full_name, status, "unexpected status")
     data = json.loads(payload.decode("utf-8"))
+    verified_on = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     if path:
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(json.dumps(data), encoding="utf-8")
-    return data
+        path.write_text(json.dumps({"payload": data, "verified_on": verified_on}), encoding="utf-8")
+    return data, verified_on
 
 
 def fetch_readme(full_name: str, cache_dir: Path | None = None) -> tuple[str | None, str | None]:
@@ -85,7 +94,8 @@ def fetch_readme(full_name: str, cache_dir: Path | None = None) -> tuple[str | N
     path = _cache_path(cache_dir, full_name, "readme")
     if path and path.exists():
         cached = json.loads(path.read_text(encoding="utf-8"))
-        return cached.get("text"), cached.get("error")
+        if isinstance(cached, dict) and "text" in cached:
+            return cached.get("text"), cached.get("error")
     try:
         _status, payload = _request_retry(
             f"{API}/repos/{full_name}/readme",

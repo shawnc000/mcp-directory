@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
 from datetime import datetime
 
@@ -36,7 +37,10 @@ class Tool:
     desc_zh: str | None = None
     desc_snapshot: str | None = None
     catalog_name: str | None = None
+    catalog_repo: str | None = None
     data_source: str = "github-api"
+    source_url: str | None = None
+    last_verified_date: str | None = None
 
     @property
     def slug(self) -> str:
@@ -69,6 +73,20 @@ def _http_homepage(value: object) -> str | None:
     return None
 
 
+_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def _verified_pair(source_url: str | None, last_verified_date: str | None) -> tuple[str | None, str | None]:
+    """Keep the pair only when both values came from a real confirmation."""
+    if not source_url or not last_verified_date:
+        return None, None
+    if not source_url.startswith("https://github.com/") or any(ch.isspace() for ch in source_url):
+        return None, None
+    if not _DATE.fullmatch(last_verified_date):
+        return None, None
+    return source_url, last_verified_date
+
+
 def translation_applies(live: str | None, snapshot: str | None, translated: str | None) -> str | None:
     """Keep a Chinese translation only while it still matches the GitHub description."""
     if not translated or not snapshot or not live:
@@ -91,7 +109,10 @@ def tool_from_api(
     desc_zh: str | None = None,
     desc_snapshot: str | None = None,
     catalog_name: str | None = None,
+    catalog_repo: str | None = None,
     data_source: str = "github-api",
+    source_url: str | None = None,
+    last_verified_date: str | None = None,
 ) -> Tool:
     full_name = repo["full_name"]
     if full_name.count("/") != 1:
@@ -110,9 +131,15 @@ def tool_from_api(
         if key not in repo or repo.get(key) is None:
             return None
         return int(repo[key])
-    html_url = repo.get("html_url") or f"https://github.com/{full_name}"
-    if not str(html_url).startswith("https://github.com/"):
+    raw_html = repo.get("html_url")
+    if isinstance(raw_html, str) and raw_html.startswith("https://github.com/") and not any(ch.isspace() for ch in raw_html):
+        html_url = raw_html
+    else:
         html_url = f"https://github.com/{full_name}"
+    if data_source == "github-api":
+        source_url, last_verified_date = _verified_pair(source_url, last_verified_date)
+    else:
+        source_url, last_verified_date = None, None
     topics = tuple(str(topic) for topic in (repo.get("topics") or []))
     return Tool(
         full_name=full_name,
@@ -140,5 +167,8 @@ def tool_from_api(
         desc_zh=translation_applies(description, desc_snapshot, desc_zh),
         desc_snapshot=desc_snapshot,
         catalog_name=catalog_name,
+        catalog_repo=catalog_repo,
         data_source=data_source,
+        source_url=source_url,
+        last_verified_date=last_verified_date,
     )

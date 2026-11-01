@@ -103,6 +103,18 @@ def _license(tool: Tool, lang: str) -> str:
     return t(lang, "none")
 
 
+def _source_cell(tool: Tool, lang: str) -> str:
+    if tool.source_url and tool.last_verified_date:
+        return f'<a href="{esc(tool.source_url)}">{esc(tool.source_url)}</a>'
+    return esc(t(lang, "unverified"))
+
+
+def _verified_cell(tool: Tool, lang: str) -> str:
+    if tool.source_url and tool.last_verified_date:
+        return esc(tool.last_verified_date)
+    return esc(t(lang, "unverified"))
+
+
 def _search_blob(tool: Tool) -> str:
     category = category_by_id(tool.category)
     return tool.search_blob(category["en"], category["zh"])
@@ -233,6 +245,8 @@ def _table(site: Site, lang: str, tools: list[Tool], include_category: bool) -> 
         t(lang, "col_stars"),
         t(lang, "col_push"),
         t(lang, "col_license"),
+        t(lang, "col_source"),
+        t(lang, "col_verified"),
     ]
     if include_category:
         heads.append(t(lang, "col_category"))
@@ -256,6 +270,8 @@ def _table(site: Site, lang: str, tools: list[Tool], include_category: bool) -> 
 <td class="num">{_fmt_int(tool.stars, lang)}</td>
 <td class="num">{esc(_day(tool.pushed_at))}</td>
 <td>{esc(_license(tool, lang))}</td>
+<td>{_source_cell(tool, lang)}</td>
+<td>{_verified_cell(tool, lang)}</td>
 {cat_cell}
 </tr>"""
         )
@@ -443,6 +459,8 @@ def _tool(site: Site, lang: str, tool: Tool) -> str:
     <div><dt>{esc(t(lang, "archived_label"))}</dt><dd>{esc(archived_label)}</dd></div>
     <div><dt>{esc(t(lang, "topics_label"))}</dt><dd>{esc(topics)}</dd></div>
     <div><dt>{esc(t(lang, "editorial"))}</dt><dd><a href="{esc(site.href(localized(lang, f"/categories/{tool.category}/")))}">{esc(cat_label)}</a></dd></div>
+    <div><dt>{esc(t(lang, "col_source"))}</dt><dd>{_source_cell(tool, lang)}</dd></div>
+    <div><dt>{esc(t(lang, "col_verified"))}</dt><dd>{_verified_cell(tool, lang)}</dd></div>
     {homepage}
   </dl>
 </section>
@@ -610,6 +628,8 @@ def _catalog_dump(site: Site) -> str:
                 "description": tool.description,
                 "homepage": tool.homepage,
                 "html_url": tool.html_url,
+                "source_url": tool.source_url,
+                "last_verified_date": tool.last_verified_date,
                 "stars": tool.stars,
                 "forks": tool.forks,
                 "open_issues_including_pull_requests": tool.open_issues,
@@ -724,6 +744,10 @@ def _validate(root: Path, site: Site) -> None:
                 raise SystemExit(f"tool page missing security assessment: {page}")
             if lang == "en" and "Security assessment" not in text:
                 raise SystemExit(f"tool page missing security assessment: {page}")
+            if lang == "zh" and ("来源链接" not in text or "最后核实日期" not in text):
+                raise SystemExit(f"tool page missing verification labels: {page}")
+            if lang == "en" and ("Source" not in text or "Last verified" not in text):
+                raise SystemExit(f"tool page missing verification labels: {page}")
             if str(tool.breakdown.total) not in text:
                 raise SystemExit(f"tool page missing total: {page}")
         if site.abs(f"/tools/{tool.slug}/") not in sitemap:
