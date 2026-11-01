@@ -1,7 +1,6 @@
 name: Submit a tool
 description: 推荐一个 MCP 服务器或代理工具 / Suggest an MCP server or agent tool
 title: "Tool: "
-labels: ["tool-submission"]
 body:
   - type: markdown
     attributes:
