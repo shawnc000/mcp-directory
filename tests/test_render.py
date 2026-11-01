@@ -30,7 +30,15 @@ def sample_tool():
         "html_url": "https://github.com/example/demo-mcp",
     }
     readme = "# Demo MCP\n\nReads pages.\n"
-    return tool_from_api(repo, "browser", FETCHED, readme, None)
+    return tool_from_api(
+        repo,
+        "browser",
+        FETCHED,
+        readme,
+        None,
+        source_url="https://github.com/example/demo-mcp",
+        last_verified_date="2026-11-01",
+    )
 
 
 class RenderTests(unittest.TestCase):
@@ -50,6 +58,13 @@ class RenderTests(unittest.TestCase):
             self.assertIn("2026-11-01T12:00:00Z", page)
             self.assertIn(str(tool.breakdown.total), page)
             self.assertIn("公开安全评估", zh)
+            self.assertIn("来源链接", zh)
+            self.assertIn("最后核实日期", zh)
+            self.assertIn('<dd><a href="https://github.com/example/demo-mcp">https://github.com/example/demo-mcp</a></dd>', zh)
+            self.assertIn("<dd>2026-11-01</dd>", zh)
+            self.assertIn("Source", page)
+            self.assertIn("Last verified", page)
+            self.assertIn("<dd>2026-11-01</dd>", page)
             self.assertIn("星标分", zh)
             self.assertIn("log10(100 + 1)", zh)
             self.assertIn('hreflang="zh-Hans"', zh)
@@ -66,6 +81,41 @@ class RenderTests(unittest.TestCase):
             self.assertIn("https://shawnc000.github.io/mcp-directory/tools/example--demo-mcp/", sitemap)
             self.assertIn("https://shawnc000.github.io/mcp-directory/en/tools/example--demo-mcp/", sitemap)
             self.assertIn("https://github.com/shawnc000/mcp-directory/issues/new?template=submit-tool.yml", (root / "submit" / "index.html").read_text(encoding="utf-8"))
+            home = (root / "index.html").read_text(encoding="utf-8")
+            self.assertIn("来源链接", home)
+            self.assertIn("最后核实日期", home)
+
+    def test_unverified_entry_does_not_invent_a_source(self):
+        repo = {
+            "full_name": "example/missing-mcp",
+            "description": "No live confirmation",
+            "stargazers_count": 10,
+            "pushed_at": "2026-10-01T00:00:00Z",
+            "license": {"spdx_id": "MIT", "name": "MIT License"},
+            "topics": [],
+            "archived": False,
+        }
+        tool = tool_from_api(
+            repo,
+            "browser",
+            FETCHED,
+            None,
+            "HTTP 404",
+            data_source="catalog-snapshot",
+            source_url="https://github.com/example/missing-mcp",
+            last_verified_date="2026-11-01",
+        )
+        self.assertIsNone(tool.source_url)
+        self.assertIsNone(tool.last_verified_date)
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            site = Site("https://shawnc000.github.io", "/mcp-directory", FETCHED, [tool])
+            render_site(site, root, ASSETS, min_tools=1)
+            zh = (root / "tools" / "example--missing-mcp" / "index.html").read_text(encoding="utf-8")
+            en = (root / "en" / "tools" / "example--missing-mcp" / "index.html").read_text(encoding="utf-8")
+            self.assertIn("<dd>未核实</dd>", zh)
+            self.assertIn("<dd>Unverified</dd>", en)
+            self.assertNotIn("<dd>2026-11-01</dd>", zh)
 
 
 if __name__ == "__main__":

@@ -4,7 +4,9 @@
   "repo": "modelcontextprotocol/servers",
   "category": "Official",
   "desc": "Model Context Protocol Servers",
-  "desc_zh": "MCP 官方参考服务器实现。"
+  "desc_zh": "MCP 官方参考服务器实现。",
+  "source_url": "https://github.com/modelcontextprotocol/servers",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "GitHub MCP Server",
@@ -23,7 +25,9 @@
     "mcp",
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/github/github-mcp-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Playwright MCP",
@@ -41,7 +45,9 @@
     "mcp",
     "playwright"
    ]
-  }
+  },
+  "source_url": "https://github.com/microsoft/playwright-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "gemini-cli",
@@ -64,7 +70,9 @@
     "mcp-client",
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/google-gemini/gemini-cli",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Scrapling",
@@ -100,7 +108,9 @@
     "webscraping",
     "xpath"
    ]
-  }
+  },
+  "source_url": "https://github.com/D4Vinci/Scrapling",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "worldmonitor",
@@ -128,7 +138,9 @@
     "palantir",
     "situation"
    ]
-  }
+  },
+  "source_url": "https://github.com/koala73/worldmonitor",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ruflo",
@@ -164,7 +176,9 @@
     "swarm-intelligence",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/ruvnet/ruflo",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "context7",
@@ -184,7 +198,9 @@
     "mcp-server",
     "vibe-coding"
    ]
-  }
+  },
+  "source_url": "https://github.com/upstash/context7",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "TrendRadar",
@@ -216,7 +232,9 @@
     "wechat",
     "wework"
    ]
-  }
+  },
+  "source_url": "https://github.com/sansan0/TrendRadar",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "chrome-devtools-mcp",
@@ -240,7 +258,9 @@
     "mcp-server",
     "puppeteer"
    ]
-  }
+  },
+  "source_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "codebase-memory-mcp",
@@ -276,7 +296,9 @@
     "tree-sitter",
     "windsurf"
    ]
-  }
+  },
+  "source_url": "https://github.com/DeusData/codebase-memory-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "reactive-resume",
@@ -302,7 +324,9 @@
     "self-hosted",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/reactive-resume/reactive-resume",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "UI-TARS-desktop",
@@ -332,7 +356,9 @@
     "vision",
     "vlm"
    ]
-  }
+  },
+  "source_url": "https://github.com/bytedance/UI-TARS-desktop",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "next-ai-draw-io",
@@ -364,7 +390,9 @@
     "mcp-server",
     "nextjs"
    ]
-  }
+  },
+  "source_url": "https://github.com/DayuanJiang/next-ai-draw-io",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "gpt-researcher",
@@ -391,7 +419,9 @@
     "search",
     "webscraping"
    ]
-  }
+  },
+  "source_url": "https://github.com/assafelovic/gpt-researcher",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "editor",
@@ -425,7 +455,9 @@
     "threejs",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/pascalorg/editor",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "python-sdk",
@@ -445,7 +477,9 @@
     "mcp-server",
     "python"
    ]
-  }
+  },
+  "source_url": "https://github.com/modelcontextprotocol/python-sdk",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "n8n-mcp",
@@ -465,7 +499,9 @@
     "n8n",
     "workflows"
    ]
-  }
+  },
+  "source_url": "https://github.com/czlonkowski/n8n-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "MaxKB",
@@ -495,7 +531,9 @@
     "qwen3",
     "rag"
    ]
-  }
+  },
+  "source_url": "https://github.com/1Panel-dev/MaxKB",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Douyin_TikTok_Download_API",
@@ -531,7 +569,9 @@
     "video-downloader",
     "web-scraping"
    ]
-  }
+  },
+  "source_url": "https://github.com/Evil0ctal/Douyin_TikTok_Download_API",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "FunASR",
@@ -567,7 +607,9 @@
     "voice-activity-detection",
     "whisper-alternative"
    ]
-  }
+  },
+  "source_url": "https://github.com/modelscope/FunASR",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "nuclear",
@@ -597,7 +639,9 @@
     "typescript",
     "windows"
    ]
-  }
+  },
+  "source_url": "https://github.com/nukeop/nuclear",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Auto-claude-code-research-in-sleep",
@@ -633,7 +677,9 @@
     "paper-writing",
     "research-automation"
    ]
-  }
+  },
+  "source_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "xerj",
@@ -669,7 +715,9 @@
     "search-engine",
     "vector-search"
    ]
-  }
+  },
+  "source_url": "https://github.com/xerj-org/xerj",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-for-beginners",
@@ -699,7 +747,9 @@
     "rust",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/microsoft/mcp-for-beginners",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "xiaohongshu-mcp",
@@ -718,7 +768,9 @@
     "mcp-server",
     "xiaohongshu-mcp"
    ]
-  }
+  },
+  "source_url": "https://github.com/xpzouying/xiaohongshu-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "trigger.dev",
@@ -747,7 +799,9 @@
     "workflow-automation",
     "workflows"
    ]
-  }
+  },
+  "source_url": "https://github.com/triggerdotdev/trigger.dev",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "OpenMetadata",
@@ -783,7 +837,9 @@
     "ontologies-api",
     "semantics"
    ]
-  }
+  },
+  "source_url": "https://github.com/open-metadata/OpenMetadata",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "TREK",
@@ -818,7 +874,9 @@
     "tripit",
     "wanderlog"
    ]
-  }
+  },
+  "source_url": "https://github.com/liketrek/TREK",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Skill_Seekers",
@@ -852,7 +910,9 @@
     "python",
     "web-scraping"
    ]
-  }
+  },
+  "source_url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "apify-mcp-server",
@@ -872,7 +932,9 @@
     "mcp",
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/apify/apify-mcp-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "nightingale",
@@ -908,7 +970,9 @@
     "tsdb",
     "victoriametrics"
    ]
-  }
+  },
+  "source_url": "https://github.com/ccfos/nightingale",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "QuantDinger",
@@ -943,7 +1007,9 @@
     "trade",
     "typesafe-ai"
    ]
-  }
+  },
+  "source_url": "https://github.com/OpenByteInc/QuantDinger",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ida-pro-mcp",
@@ -968,7 +1034,9 @@
     "modelcontextprotocol",
     "reverse-engineering"
    ]
-  }
+  },
+  "source_url": "https://github.com/mrexodia/ida-pro-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "hexstrike-ai",
@@ -1004,7 +1072,9 @@
     "pentesting",
     "pentesting-tools"
    ]
-  }
+  },
+  "source_url": "https://github.com/0x4m4/hexstrike-ai",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "XHS-Downloader",
@@ -1040,7 +1110,9 @@
     "windows",
     "xiaohongshu"
    ]
-  }
+  },
+  "source_url": "https://github.com/JoeanAmier/XHS-Downloader",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "fastapi_mcp",
@@ -1069,7 +1141,9 @@
     "openapi",
     "windsurf"
    ]
-  }
+  },
+  "source_url": "https://github.com/tadata-org/fastapi_mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "nginx-ui",
@@ -1100,7 +1174,9 @@
     "webui",
     "windows"
    ]
-  }
+  },
+  "source_url": "https://github.com/0xJacky/nginx-ui",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "xiaozhi-esp32-server",
@@ -1123,7 +1199,9 @@
     "xiaozhi-esp32",
     "xiaozhi-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/xinnan-tech/xiaozhi-esp32-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Trail-Code",
@@ -1156,7 +1234,9 @@
     "openai",
     "tree-sitter"
    ]
-  }
+  },
+  "source_url": "https://github.com/trailhq/Trail-Code",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-use",
@@ -1192,7 +1272,9 @@
     "modelcontextprotocol",
     "skills"
    ]
-  }
+  },
+  "source_url": "https://github.com/mcp-use/mcp-use",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "drawio-skill",
@@ -1228,7 +1310,9 @@
     "terraform",
     "uml"
    ]
-  }
+  },
+  "source_url": "https://github.com/Agents365-ai/drawio-skill",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mobile-mcp",
@@ -1262,7 +1346,9 @@
     "simulator",
     "skills"
    ]
-  }
+  },
+  "source_url": "https://github.com/mobile-next/mobile-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp",
@@ -1287,7 +1373,9 @@
     "mcp-tools",
     "modelcontextprotocol"
    ]
-  }
+  },
+  "source_url": "https://github.com/awslabs/mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "openstatus",
@@ -1322,7 +1410,9 @@
     "uptime-checker",
     "uptime-monitor"
    ]
-  }
+  },
+  "source_url": "https://github.com/openstatusHQ/openstatus",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "dashboard-icons",
@@ -1357,7 +1447,9 @@
     "selfhosted",
     "svg-icons"
    ]
-  }
+  },
+  "source_url": "https://github.com/homarr-labs/dashboard-icons",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "lamda",
@@ -1392,7 +1484,9 @@
     "uiautomator2",
     "xposed"
    ]
-  }
+  },
+  "source_url": "https://github.com/firerpa/lamda",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "open-seo-mcp-skills",
@@ -1428,7 +1522,9 @@
     "seo-mcp",
     "seo-mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "osaurus",
@@ -1454,7 +1550,9 @@
     "openai",
     "swift"
    ]
-  }
+  },
+  "source_url": "https://github.com/osaurus-ai/osaurus",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Awesome-MCP-ZH",
@@ -1482,7 +1580,9 @@
     "mcp-tools",
     "qwen-mcp"
    ]
-  }
+  },
+  "source_url": "https://github.com/yzfly/Awesome-MCP-ZH",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "firecrawl-mcp-server",
@@ -1513,7 +1613,9 @@
     "web-crawler",
     "web-scraping"
    ]
-  }
+  },
+  "source_url": "https://github.com/firecrawl/firecrawl-mcp-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "waha",
@@ -1544,7 +1646,9 @@
     "whatsapp-web",
     "whatsapp-web-api"
    ]
-  }
+  },
+  "source_url": "https://github.com/devlikeapro/waha",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "unstract",
@@ -1572,7 +1676,9 @@
     "prompt-engineering",
     "structured-output"
    ]
-  }
+  },
+  "source_url": "https://github.com/Zipstack/unstract",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "browser-tools-mcp",
@@ -1593,7 +1699,9 @@
     "mcp",
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/AgentDeskAI/browser-tools-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp",
@@ -1615,7 +1723,9 @@
     "mcp",
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/BrowserMCP/mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "google-ads-meta-ads-mcp",
@@ -1651,7 +1761,9 @@
     "n8n",
     "remote-mcp"
    ]
-  }
+  },
+  "source_url": "https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "MobileBuildMCP",
@@ -1674,7 +1786,9 @@
     "xcode",
     "xcodebuild"
    ]
-  }
+  },
+  "source_url": "https://github.com/getsentry/MobileBuildMCP",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "semble",
@@ -1697,7 +1811,9 @@
     "model-context-protocol",
     "retrieval"
    ]
-  }
+  },
+  "source_url": "https://github.com/MinishLab/semble",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "lemonade",
@@ -1732,7 +1848,9 @@
     "ryzen",
     "vulkan"
    ]
-  }
+  },
+  "source_url": "https://github.com/lemonade-sdk/lemonade",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ghidra-mcp",
@@ -1759,7 +1877,9 @@
     "reverse-engineering",
     "static-analysis"
    ]
-  }
+  },
+  "source_url": "https://github.com/bethington/ghidra-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "klavis",
@@ -1789,7 +1909,9 @@
     "oauth2",
     "open-source"
    ]
-  }
+  },
+  "source_url": "https://github.com/Klavis-AI/klavis",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "zotero-mcp",
@@ -1816,7 +1938,9 @@
     "zotero",
     "zotero-plugin"
    ]
-  }
+  },
+  "source_url": "https://github.com/54yyyu/zotero-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "FinanceToolkit",
@@ -1852,7 +1976,9 @@
     "technical-analysis",
     "valuation"
    ]
-  }
+  },
+  "source_url": "https://github.com/JerBouma/FinanceToolkit",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "tabularis",
@@ -1888,7 +2014,9 @@
     "typescript",
     "visual-query-builder"
    ]
-  }
+  },
+  "source_url": "https://github.com/TabularisDB/tabularis",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "code-graph-rag",
@@ -1924,7 +2052,9 @@
     "semantic-search",
     "tree-sitter"
    ]
-  }
+  },
+  "source_url": "https://github.com/vitali87/code-graph-rag",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "exa-mcp-server",
@@ -1948,7 +2078,9 @@
     "web-search",
     "websearch"
    ]
-  }
+  },
+  "source_url": "https://github.com/exa-labs/exa-mcp-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "tradingview-mcp",
@@ -1977,7 +2109,9 @@
     "trading-strategies",
     "tradingview"
    ]
-  }
+  },
+  "source_url": "https://github.com/atilaahmettaner/tradingview-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "whodb",
@@ -2013,7 +2147,9 @@
     "text-to-sql",
     "visual-query-builder"
    ]
-  }
+  },
+  "source_url": "https://github.com/clidey/whodb",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "deep-research",
@@ -2039,7 +2175,9 @@
     "ollama",
     "openai"
    ]
-  }
+  },
+  "source_url": "https://github.com/u14app/deep-research",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "JobSpy",
@@ -2075,7 +2213,9 @@
     "remote-work",
     "ziprecruiter"
    ]
-  }
+  },
+  "source_url": "https://github.com/speedyapply/JobSpy",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Unity-MCP",
@@ -2110,7 +2250,9 @@
     "unity",
     "windsurf"
    ]
-  }
+  },
+  "source_url": "https://github.com/IvanMurzak/Unity-MCP",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "flint-chart",
@@ -2130,7 +2272,9 @@
     "data-visualization",
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/microsoft/flint-chart",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "dagu",
@@ -2166,7 +2310,9 @@
     "workflow-orchestration",
     "workflow-scheduler"
    ]
-  }
+  },
+  "source_url": "https://github.com/dagucloud/dagu",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "design-extract",
@@ -2202,7 +2348,9 @@
     "tailwind",
     "web-scraping"
    ]
-  }
+  },
+  "source_url": "https://github.com/Manavarya09/design-extract",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcpo",
@@ -2223,7 +2371,9 @@
     "open-webui",
     "openapi"
    ]
-  }
+  },
+  "source_url": "https://github.com/open-webui/mcpo",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-server-chart",
@@ -2245,7 +2395,9 @@
     "skills",
     "visualization"
    ]
-  }
+  },
+  "source_url": "https://github.com/antvis/mcp-server-chart",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "httprunner",
@@ -2271,7 +2423,9 @@
     "wda",
     "webdriveragent"
    ]
-  }
+  },
+  "source_url": "https://github.com/httprunner/httprunner",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "excel-mcp-server",
@@ -2307,7 +2461,9 @@
     "vba",
     "xlsx"
    ]
-  }
+  },
+  "source_url": "https://github.com/haris-musa/excel-mcp-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "hyperresearch",
@@ -2337,7 +2493,9 @@
     "research-agent",
     "research-tools"
    ]
-  }
+  },
+  "source_url": "https://github.com/jordan-gibbs/hyperresearch",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ffmpeg-skill",
@@ -2373,7 +2531,9 @@
     "video-processing",
     "whisper"
    ]
-  }
+  },
+  "source_url": "https://github.com/kajisho5/ffmpeg-skill",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "kubefwd",
@@ -2404,7 +2564,9 @@
     "port-forwarding",
     "proxy"
    ]
-  }
+  },
+  "source_url": "https://github.com/txn2/kubefwd",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "linkedin-mcp-server",
@@ -2439,7 +2601,9 @@
     "model-context-protocol",
     "python"
    ]
-  }
+  },
+  "source_url": "https://github.com/stickerdaniel/linkedin-mcp-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "radar",
@@ -2475,7 +2639,9 @@
     "model-context-protocol",
     "self-hosted"
    ]
-  }
+  },
+  "source_url": "https://github.com/skyhook-io/radar",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "fast-agent",
@@ -2503,7 +2669,9 @@
     "skills",
     "tui"
    ]
-  }
+  },
+  "source_url": "https://github.com/evalstate/fast-agent",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "lean-ctx",
@@ -2538,7 +2706,9 @@
     "mcp-server",
     "rust"
    ]
-  }
+  },
+  "source_url": "https://github.com/yvgude/lean-ctx",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "pipeshub-ai",
@@ -2574,7 +2744,9 @@
     "self-hosted",
     "workplace-ai"
    ]
-  }
+  },
+  "source_url": "https://github.com/pipeshub-ai/pipeshub-ai",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "davinci-resolve-mcp",
@@ -2597,7 +2769,9 @@
     "mcp",
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "dbhub",
@@ -2633,7 +2807,9 @@
     "sqlite",
     "sqlserver"
    ]
-  }
+  },
+  "source_url": "https://github.com/bytebase/dbhub",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "java-sdk",
@@ -2653,7 +2829,9 @@
     "mcp-client",
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/modelcontextprotocol/java-sdk",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "buildwithclaude",
@@ -2681,7 +2859,9 @@
     "plugin-marketplace",
     "subagents"
    ]
-  }
+  },
+  "source_url": "https://github.com/davepoon/buildwithclaude",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "py-xiaozhi",
@@ -2712,7 +2892,9 @@
     "voice-assistant",
     "xiaozhi-esp32"
    ]
-  }
+  },
+  "source_url": "https://github.com/huangjunsen0406/py-xiaozhi",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "fli",
@@ -2734,7 +2916,9 @@
     "mcp",
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/punitarani/fli",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "google_workspace_mcp",
@@ -2770,7 +2954,9 @@
     "mcp-server",
     "model-context-protocol-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/taylorwilsdon/google_workspace_mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "FlyEnv",
@@ -2806,7 +2992,9 @@
     "redis",
     "xampp-alternative"
    ]
-  }
+  },
+  "source_url": "https://github.com/xpf0000/FlyEnv",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "stealth-browser-mcp",
@@ -2842,7 +3030,9 @@
     "web-automation",
     "web-scraping"
    ]
-  }
+  },
+  "source_url": "https://github.com/vibheksoni/stealth-browser-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "cortex",
@@ -2877,7 +3067,9 @@
     "sdk-generator",
     "swagger"
    ]
-  }
+  },
+  "source_url": "https://github.com/cortex-docs/cortex",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "arxiv-mcp-server",
@@ -2903,7 +3095,9 @@
     "python",
     "research"
    ]
-  }
+  },
+  "source_url": "https://github.com/blazickjp/arxiv-mcp-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "textbee",
@@ -2938,7 +3132,9 @@
     "twilio-alternative",
     "webhooks"
    ]
-  }
+  },
+  "source_url": "https://github.com/textbee/textbee",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ddgs",
@@ -2964,7 +3160,9 @@
     "search",
     "websearch"
    ]
-  }
+  },
+  "source_url": "https://github.com/deedy5/ddgs",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "js-reverse-mcp",
@@ -2991,7 +3189,9 @@
     "reverse-engineering",
     "websocket"
    ]
-  }
+  },
+  "source_url": "https://github.com/zhizhuodemao/js-reverse-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Silex",
@@ -3023,7 +3223,9 @@
     "webdesign",
     "website-builder"
    ]
-  }
+  },
+  "source_url": "https://github.com/silexlabs/Silex",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "jadx-ai-mcp",
@@ -3052,7 +3254,9 @@
     "sast",
     "vapt"
    ]
-  }
+  },
+  "source_url": "https://github.com/zinja-coder/jadx-ai-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "paper-search-mcp",
@@ -3072,7 +3276,9 @@
     "mcp-server",
     "paper-search"
    ]
-  }
+  },
+  "source_url": "https://github.com/openags/paper-search-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "vexa",
@@ -3104,7 +3310,9 @@
     "transcription",
     "zoom"
    ]
-  }
+  },
+  "source_url": "https://github.com/Vexa-ai/vexa",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "thesvg",
@@ -3140,7 +3348,9 @@
     "typescript",
     "vue"
    ]
-  }
+  },
+  "source_url": "https://github.com/glincker/thesvg",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "kordoc",
@@ -3176,7 +3386,9 @@
     "rag",
     "xlsx"
    ]
-  }
+  },
+  "source_url": "https://github.com/chrisryugj/kordoc",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "slackdump",
@@ -3204,7 +3416,9 @@
     "slack-exports",
     "slackdump"
    ]
-  }
+  },
+  "source_url": "https://github.com/rusq/slackdump",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "korean-law-mcp",
@@ -3240,7 +3454,9 @@
     "statutes",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/chrisryugj/korean-law-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-proxy",
@@ -3261,7 +3477,9 @@
     "sse",
     "streamable-http"
    ]
-  }
+  },
+  "source_url": "https://github.com/sparfenyuk/mcp-proxy",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "solon",
@@ -3295,7 +3513,9 @@
     "solon-cloud",
     "web-framework"
    ]
-  }
+  },
+  "source_url": "https://github.com/opensolon/solon",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "metamcp",
@@ -3326,7 +3546,9 @@
     "self-hosted",
     "vibe-coding"
    ]
-  }
+  },
+  "source_url": "https://github.com/metatool-ai/metamcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "brightdata-mcp",
@@ -3358,7 +3580,9 @@
     "web-data",
     "web-scraping"
    ]
-  }
+  },
+  "source_url": "https://github.com/brightdata/brightdata-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "papersgpt-for-zotero",
@@ -3394,7 +3618,9 @@
     "research",
     "zotero"
    ]
-  }
+  },
+  "source_url": "https://github.com/papersgpt/papersgpt-for-zotero",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "x64dbg-mcp-server",
@@ -3429,7 +3655,9 @@
     "zig-lang",
     "ziglang"
    ]
-  }
+  },
+  "source_url": "https://github.com/duty1g/x64dbg-mcp-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "open-ontologies",
@@ -3463,7 +3691,9 @@
     "sparql",
     "theorem-proving"
    ]
-  }
+  },
+  "source_url": "https://github.com/fabio-rovai/open-ontologies",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "nunu",
@@ -3488,7 +3718,9 @@
     "mcp-server",
     "scaffold"
    ]
-  }
+  },
+  "source_url": "https://github.com/go-nunu/nunu",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcphub",
@@ -3509,7 +3741,9 @@
     "mcp-router",
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/samanhappy/mcphub",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "nitrostack",
@@ -3540,7 +3774,9 @@
     "model-context-protocol",
     "modelcontextprotocol"
    ]
-  }
+  },
+  "source_url": "https://github.com/nitrocloudofficial/nitrostack",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ripwire",
@@ -3576,7 +3812,9 @@
     "token-optimization",
     "tree-sitter"
    ]
-  }
+  },
+  "source_url": "https://github.com/redhat-et/ripwire",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "paperbanana",
@@ -3612,7 +3850,9 @@
     "text-to-image",
     "vlm"
    ]
-  }
+  },
+  "source_url": "https://github.com/llmsresearch/paperbanana",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "agency-orchestrator",
@@ -3648,7 +3888,9 @@
     "workflow",
     "yaml-workflow"
    ]
-  }
+  },
+  "source_url": "https://github.com/jnMetaCode/agency-orchestrator",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "12306-mcp",
@@ -3668,7 +3910,9 @@
     "mcp-server",
     "train-tickets"
    ]
-  }
+  },
+  "source_url": "https://github.com/Joooook/12306-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "webclaw",
@@ -3704,7 +3948,9 @@
     "web-extraction",
     "web-scraping"
    ]
-  }
+  },
+  "source_url": "https://github.com/0xMassi/webclaw",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "agent-teams-ai",
@@ -3740,7 +3986,9 @@
     "opencode",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/777genius/agent-teams-ai",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Unla",
@@ -3763,7 +4011,9 @@
     "rest-to-mcp",
     "restful-to-mcp"
    ]
-  }
+  },
+  "source_url": "https://github.com/AmoyLab/Unla",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "llm-wiki-compiler",
@@ -3793,7 +4043,9 @@
     "obsidian",
     "wiki"
    ]
-  }
+  },
+  "source_url": "https://github.com/atomicstrata/llm-wiki-compiler",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "skybridge",
@@ -3828,7 +4080,9 @@
     "tooling",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/alpic-ai/skybridge",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-shrimp-task-manager",
@@ -3859,7 +4113,9 @@
     "windsurf",
     "windsurf-ai"
    ]
-  }
+  },
+  "source_url": "https://github.com/cjo4m06/mcp-shrimp-task-manager",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "fusio",
@@ -3888,7 +4144,9 @@
     "php",
     "rest"
    ]
-  }
+  },
+  "source_url": "https://github.com/apioo/fusio",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Qu1cksc0pe",
@@ -3924,7 +4182,9 @@
     "threat-analysis",
     "windows"
    ]
-  }
+  },
+  "source_url": "https://github.com/CYB3RMX/Qu1cksc0pe",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "jshookmcp",
@@ -3960,7 +4220,9 @@
     "wasm",
     "web-security"
    ]
-  }
+  },
+  "source_url": "https://github.com/vmoranv/jshookmcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-gsc",
@@ -3980,7 +4242,9 @@
     "mcp-server",
     "seo"
    ]
-  }
+  },
+  "source_url": "https://github.com/AminForou/mcp-gsc",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "gitlab-mcp",
@@ -4006,7 +4270,9 @@
     "mcp-server",
     "model-context-protocol"
    ]
-  }
+  },
+  "source_url": "https://github.com/zereight/gitlab-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-memory-service",
@@ -4042,7 +4308,9 @@
     "vector-database",
     "vector-storage"
    ]
-  }
+  },
+  "source_url": "https://github.com/doobidoo/mcp-memory-service",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "anysearch-mcp-server",
@@ -4066,7 +4334,9 @@
     "web-search",
     "websearch"
    ]
-  }
+  },
+  "source_url": "https://github.com/anysearch-ai/anysearch-mcp-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "new-term-radar",
@@ -4095,7 +4365,9 @@
     "seo",
     "trends"
    ]
-  }
+  },
+  "source_url": "https://github.com/zhuyansen/new-term-radar",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "contextplus",
@@ -4112,7 +4384,9 @@
    "topics": [
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/forloopcodes/contextplus",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "gortex",
@@ -4144,7 +4418,9 @@
     "pi",
     "tokens"
    ]
-  }
+  },
+  "source_url": "https://github.com/zzet/gortex",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "slack-mcp-server",
@@ -4167,7 +4443,9 @@
     "slack",
     "slack-api"
    ]
-  }
+  },
+  "source_url": "https://github.com/korotovsky/slack-mcp-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "pg-aiguide",
@@ -4199,7 +4477,9 @@
     "postgresql",
     "skills"
    ]
-  }
+  },
+  "source_url": "https://github.com/timescale/pg-aiguide",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-brasil",
@@ -4225,7 +4505,9 @@
     "mcp-server",
     "python"
    ]
-  }
+  },
+  "source_url": "https://github.com/Mcp-Brasil/mcp-brasil",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "OpenOSINT",
@@ -4260,7 +4542,9 @@
     "terminal",
     "threat-intelligence"
    ]
-  }
+  },
+  "source_url": "https://github.com/OpenOSINT/OpenOSINT",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Dive",
@@ -4286,7 +4570,9 @@
     "ollama-client",
     "ollama-ui"
    ]
-  }
+  },
+  "source_url": "https://github.com/OpenAgentPlatform/Dive",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "MeiGen-AI-Design-MCP",
@@ -4310,7 +4596,9 @@
     "openclaw",
     "seedance"
    ]
-  }
+  },
+  "source_url": "https://github.com/jau123/MeiGen-AI-Design-MCP",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcphub.nvim",
@@ -4342,7 +4630,9 @@
     "nvim",
     "nvim-plugin"
    ]
-  }
+  },
+  "source_url": "https://github.com/ravitemer/mcphub.nvim",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mex",
@@ -4377,7 +4667,9 @@
     "tree-sitter",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/mex-memory/mex",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "erd-editor",
@@ -4413,7 +4705,9 @@
     "vscode-extension",
     "web-components"
    ]
-  }
+  },
+  "source_url": "https://github.com/dineug/erd-editor",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "llmwiki",
@@ -4440,7 +4734,9 @@
     "rag",
     "supabase"
    ]
-  }
+  },
+  "source_url": "https://github.com/lucasastorian/llmwiki",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "cheatengine-mcp-bridge",
@@ -4476,7 +4772,9 @@
     "vibecheating",
     "vibehacking"
    ]
-  }
+  },
+  "source_url": "https://github.com/miscusi-peek/cheatengine-mcp-bridge",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "zenfeed",
@@ -4503,7 +4801,9 @@
     "rss-reader",
     "rsshub"
    ]
-  }
+  },
+  "source_url": "https://github.com/glidea/zenfeed",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "bla",
@@ -4529,7 +4829,9 @@
     "reverse-engineering",
     "webassembly"
    ]
-  }
+  },
+  "source_url": "https://github.com/qybaihe/bla",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "terravision",
@@ -4565,7 +4867,9 @@
     "terraform",
     "text-to-diagram"
    ]
-  }
+  },
+  "source_url": "https://github.com/patrickchugh/terravision",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-windbg",
@@ -4589,7 +4893,9 @@
     "windbg",
     "windbg-extension"
    ]
-  }
+  },
+  "source_url": "https://github.com/svnscha/mcp-windbg",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "rulego",
@@ -4623,7 +4929,9 @@
     "workflow-automation",
     "workflow-engine"
    ]
-  }
+  },
+  "source_url": "https://github.com/rulego/rulego",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcptools",
@@ -4642,7 +4950,9 @@
     "mcp-server",
     "modelcontextprotocol"
    ]
-  }
+  },
+  "source_url": "https://github.com/f/mcptools",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-language-server",
@@ -4663,7 +4973,9 @@
     "mcp-server",
     "model-context-protocol"
    ]
-  }
+  },
+  "source_url": "https://github.com/isaacphi/mcp-language-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "datagouv-mcp",
@@ -4683,7 +4995,9 @@
     "open-data",
     "opendata"
    ]
-  }
+  },
+  "source_url": "https://github.com/datagouv/datagouv-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "MiniMax-MCP",
@@ -4709,7 +5023,9 @@
     "video-generation",
     "voice-cloning"
    ]
-  }
+  },
+  "source_url": "https://github.com/MiniMax-AI/MiniMax-MCP",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mailcheap",
@@ -4738,7 +5054,9 @@
     "self-hosted",
     "substack-alternative"
    ]
-  }
+  },
+  "source_url": "https://github.com/marclou/mailcheap",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-server-qdrant",
@@ -4761,7 +5079,9 @@
     "semantic-search",
     "windsurf"
    ]
-  }
+  },
+  "source_url": "https://github.com/qdrant/mcp-server-qdrant",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "LitterBox",
@@ -4786,7 +5106,9 @@
     "redteam",
     "sandbox"
    ]
-  }
+  },
+  "source_url": "https://github.com/BlackSnufkin/LitterBox",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "paperdebugger",
@@ -4816,7 +5138,9 @@
     "overleaf-copilot",
     "paperdebugger"
    ]
-  }
+  },
+  "source_url": "https://github.com/PaperDebugger/paperdebugger",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcd-saver-strategist",
@@ -4847,7 +5171,9 @@
     "workbuddy",
     "workbuddy-skill"
    ]
-  }
+  },
+  "source_url": "https://github.com/hujjun/mcd-saver-strategist",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "rocketmq-rust",
@@ -4875,7 +5201,9 @@
     "rust",
     "tauri"
    ]
-  }
+  },
+  "source_url": "https://github.com/mxsm/rocketmq-rust",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "data-api-builder",
@@ -4900,7 +5228,9 @@
     "microsoft",
     "rest"
    ]
-  }
+  },
+  "source_url": "https://github.com/Azure/data-api-builder",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "openserp",
@@ -4936,7 +5266,9 @@
     "web-search",
     "yandex"
    ]
-  }
+  },
+  "source_url": "https://github.com/karust/openserp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "npcpy",
@@ -4965,7 +5297,9 @@
     "superintelligence-research",
     "yaml"
    ]
-  }
+  },
+  "source_url": "https://github.com/NPC-Worldwide/npcpy",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ros-mcp-server",
@@ -4988,7 +5322,9 @@
     "ros2",
     "ros2-mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/robotmcp/ros-mcp-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "aktools",
@@ -5017,7 +5353,9 @@
     "quant",
     "stock-market"
    ]
-  }
+  },
+  "source_url": "https://github.com/akfamily/aktools",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "pm-claude-skills",
@@ -5053,7 +5391,9 @@
     "prompt-engineering",
     "skills"
    ]
-  }
+  },
+  "source_url": "https://github.com/mohitagw15856/pm-claude-skills",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "solomd",
@@ -5089,7 +5429,9 @@
     "whiteboard",
     "wikilinks"
    ]
-  }
+  },
+  "source_url": "https://github.com/zhitongblog/solomd",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "chunkhound",
@@ -5112,7 +5454,9 @@
     "semantic-search",
     "tree-sitter"
    ]
-  }
+  },
+  "source_url": "https://github.com/chunkhound/chunkhound",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "claude-video-vision",
@@ -5137,7 +5481,9 @@
     "video-analysis",
     "whisper"
    ]
-  }
+  },
+  "source_url": "https://github.com/jordanrendric/claude-video-vision",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "obsei",
@@ -5173,7 +5519,9 @@
     "topic-modeling",
     "voice-of-customer"
    ]
-  }
+  },
+  "source_url": "https://github.com/obsei/obsei",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "tradememory-protocol",
@@ -5203,7 +5551,9 @@
     "outcome-weighted-memory",
     "trading"
    ]
-  }
+  },
+  "source_url": "https://github.com/mnemox-ai/tradememory-protocol",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "keeper.sh",
@@ -5235,7 +5585,9 @@
     "sync",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/ridafkih/keeper.sh",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "voicemode",
@@ -5263,7 +5615,9 @@
     "voicemode",
     "whisper"
    ]
-  }
+  },
+  "source_url": "https://github.com/mbailey/voicemode",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ollaya",
@@ -5299,7 +5653,9 @@
     "typed-decisions",
     "typesafe"
    ]
-  }
+  },
+  "source_url": "https://github.com/ollaya-dev/ollaya",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "nocturne_memory",
@@ -5332,7 +5688,9 @@
     "second-brain",
     "sqlite"
    ]
-  }
+  },
+  "source_url": "https://github.com/Dataojitori/nocturne_memory",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "reason-network",
@@ -5361,7 +5719,9 @@
     "peer-to-peer",
     "reason"
    ]
-  }
+  },
+  "source_url": "https://github.com/reason-machines/reason-network",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "openharness",
@@ -5397,7 +5757,9 @@
     "terminal",
     "tmux"
    ]
-  }
+  },
+  "source_url": "https://github.com/autonomous-ai/openharness",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mysql_mcp_server",
@@ -5422,7 +5784,9 @@
     "model-context-protocol",
     "mysql"
    ]
-  }
+  },
+  "source_url": "https://github.com/designcomputer/mysql_mcp_server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mirobody",
@@ -5455,7 +5819,9 @@
     "self-hosted",
     "wearables"
    ]
-  }
+  },
+  "source_url": "https://github.com/thetahealth/mirobody",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "xiaozhi-esp32-server-java",
@@ -5483,7 +5849,9 @@
     "xiaozhi-esp32",
     "xiaozhi-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/joey-zhou/xiaozhi-esp32-server-java",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "sourcey",
@@ -5515,7 +5883,9 @@
     "swagger",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/sourcey/sourcey",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "PrismerCloud",
@@ -5546,7 +5916,9 @@
     "typescript",
     "windsurf"
    ]
-  }
+  },
+  "source_url": "https://github.com/Prismer-AI/PrismerCloud",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "repobrain",
@@ -5582,7 +5954,9 @@
     "rag",
     "windsurf"
    ]
-  }
+  },
+  "source_url": "https://github.com/study8677/repobrain",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "wenyan-mcp",
@@ -5601,7 +5975,9 @@
     "wechat",
     "wenyan"
    ]
-  }
+  },
+  "source_url": "https://github.com/caol64/wenyan-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-searxng",
@@ -5629,7 +6005,9 @@
     "self-hosted",
     "web-search"
    ]
-  }
+  },
+  "source_url": "https://github.com/ihor-sokoliuk/mcp-searxng",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "deja-vu",
@@ -5665,7 +6043,9 @@
     "windsurf",
     "zed-extension"
    ]
-  }
+  },
+  "source_url": "https://github.com/vshulcz/deja-vu",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "open-reverselab",
@@ -5701,7 +6081,9 @@
     "rizin",
     "x64dbg"
    ]
-  }
+  },
+  "source_url": "https://github.com/LING71671/open-reverselab",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "reverify",
@@ -5737,7 +6119,9 @@
     "security-tools",
     "verification"
    ]
-  }
+  },
+  "source_url": "https://github.com/2akouwu/reverify",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "jupyter-mcp-server",
@@ -5758,7 +6142,9 @@
     "mcp-server",
     "tools"
    ]
-  }
+  },
+  "source_url": "https://github.com/datalayer/jupyter-mcp-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "MCPJungle",
@@ -5782,7 +6168,9 @@
     "model-context-protocol",
     "self-hosted"
    ]
-  }
+  },
+  "source_url": "https://github.com/mcpjungle/MCPJungle",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "search2ai",
@@ -5812,7 +6200,9 @@
     "typescript",
     "web-search"
    ]
-  }
+  },
+  "source_url": "https://github.com/fatwang2/search2ai",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ai-security-tool",
@@ -5847,7 +6237,9 @@
     "terminal",
     "vnc"
    ]
-  }
+  },
+  "source_url": "https://github.com/ZeroDayEvil/ai-security-tool",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "zotero-mcp",
@@ -5866,7 +6258,9 @@
     "mcp-server",
     "zotero"
    ]
-  }
+  },
+  "source_url": "https://github.com/cookjohn/zotero-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Lightswind-UI-Library",
@@ -5897,7 +6291,9 @@
     "ui-library",
     "vite"
    ]
-  }
+  },
+  "source_url": "https://github.com/codewithMUHILAN/Lightswind-UI-Library",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "stashbase",
@@ -5925,7 +6321,9 @@
     "wiki",
     "writing"
    ]
-  }
+  },
+  "source_url": "https://github.com/liliu-z/stashbase",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "coding-tools-mcp",
@@ -5944,7 +6342,9 @@
     "mcp",
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/xyTom/coding-tools-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Gearboy",
@@ -5975,7 +6375,9 @@
     "retroarch",
     "vgm"
    ]
-  }
+  },
+  "source_url": "https://github.com/drhelius/Gearboy",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "magic",
@@ -6008,7 +6410,9 @@
     "self-hosted",
     "sql-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/polterguy/magic",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "northcinder",
@@ -6034,7 +6438,9 @@
     "shopping-agent",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/cinderline/northcinder",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "simutil",
@@ -6070,7 +6476,9 @@
     "screen-mirroring",
     "xcode"
    ]
-  }
+  },
+  "source_url": "https://github.com/dungngminh/simutil",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "crw",
@@ -6105,7 +6513,9 @@
     "web-scraping",
     "web-search-api"
    ]
-  }
+  },
+  "source_url": "https://github.com/fastcrw/crw",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "zen",
@@ -6126,7 +6536,9 @@
     "preact",
     "sqlite"
    ]
-  }
+  },
+  "source_url": "https://github.com/sheshbabu/zen",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "better-chatbot",
@@ -6162,7 +6574,9 @@
     "web-ui",
     "workflow"
    ]
-  }
+  },
+  "source_url": "https://github.com/keinsaasforever/better-chatbot",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ref-tools-mcp",
@@ -6182,7 +6596,9 @@
     "mcp",
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/ref-tools/ref-tools-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "agentrq",
@@ -6218,7 +6634,9 @@
     "task-manager",
     "task-scheduler"
    ]
-  }
+  },
+  "source_url": "https://github.com/agentrq/agentrq",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "clipforge",
@@ -6254,7 +6672,9 @@
     "xiaohongshu",
     "youtube-shorts"
    ]
-  }
+  },
+  "source_url": "https://github.com/xixihhhh/clipforge",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mongodb-mcp-server",
@@ -6275,7 +6695,9 @@
     "mongodb-atlas",
     "mongodb-database"
    ]
-  }
+  },
+  "source_url": "https://github.com/mongodb-js/mongodb-mcp-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "CloudBase-AI-Toolkit",
@@ -6307,7 +6729,9 @@
     "vibe-coding",
     "web"
    ]
-  }
+  },
+  "source_url": "https://github.com/TencentCloudBase/CloudBase-AI-Toolkit",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "atlassian-mcp-server",
@@ -6343,7 +6767,9 @@
     "rovo",
     "vscode"
    ]
-  }
+  },
+  "source_url": "https://github.com/atlassian/atlassian-mcp-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ai-trader",
@@ -6370,7 +6796,9 @@
     "stock-price-prediction",
     "trading"
    ]
-  }
+  },
+  "source_url": "https://github.com/whchien/ai-trader",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "RedNote-MCP",
@@ -6393,7 +6821,9 @@
     "xhs",
     "xhs-mcp"
    ]
-  }
+  },
+  "source_url": "https://github.com/iFurySt/RedNote-MCP",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Awesome-MCP-Servers",
@@ -6414,7 +6844,9 @@
     "mcp",
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/YuzeHao2023/Awesome-MCP-Servers",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "arcade-mcp",
@@ -6447,7 +6879,9 @@
     "model-context-protocol-sdk",
     "python"
    ]
-  }
+  },
+  "source_url": "https://github.com/ArcadeAI/arcade-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "agentic-radar",
@@ -6479,7 +6913,9 @@
     "security",
     "security-tools"
    ]
-  }
+  },
+  "source_url": "https://github.com/splx-ai/agentic-radar",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "winutil-cn",
@@ -6512,7 +6948,9 @@
     "winget",
     "winutil"
    ]
-  }
+  },
+  "source_url": "https://github.com/yasewang1337-svg/winutil-cn",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "alpaca-mcp-server",
@@ -6538,7 +6976,9 @@
     "trading",
     "trading-api"
    ]
-  }
+  },
+  "source_url": "https://github.com/alpacahq/alpaca-mcp-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp",
@@ -6558,7 +6998,9 @@
     "mcp",
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/cloudflare/mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-google-sheets",
@@ -6578,7 +7020,9 @@
     "mcp-server",
     "spreadsheet"
    ]
-  }
+  },
+  "source_url": "https://github.com/xing5/mcp-google-sheets",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "awesome-mcp-servers",
@@ -6602,7 +7046,9 @@
     "mcp-servers",
     "model-context-protocol"
    ]
-  }
+  },
+  "source_url": "https://github.com/TensorBlock/awesome-mcp-servers",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "opentabs",
@@ -6629,7 +7075,9 @@
     "plugins",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/opentabs-dev/opentabs",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "AI-Gateway",
@@ -6656,7 +7104,9 @@
     "openai",
     "openai-api"
    ]
-  }
+  },
+  "source_url": "https://github.com/Azure-Samples/AI-Gateway",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Unreal_mcp",
@@ -6676,7 +7126,9 @@
     "unreal-engine",
     "unreal-engine-5"
    ]
-  }
+  },
+  "source_url": "https://github.com/ChiR24/Unreal_mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-neo4j",
@@ -6697,7 +7149,9 @@
     "neo4j",
     "stdio"
    ]
-  }
+  },
+  "source_url": "https://github.com/neo4j-contrib/mcp-neo4j",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "x-reader",
@@ -6721,7 +7175,9 @@
     "web-scraping",
     "youtube"
    ]
-  }
+  },
+  "source_url": "https://github.com/runesleo/x-reader",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "awesome-reverse-engineered",
@@ -6757,7 +7213,9 @@
     "reverse-engineering",
     "unofficial-api"
    ]
-  }
+  },
+  "source_url": "https://github.com/alexgaoth/awesome-reverse-engineered",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "agent-swarm",
@@ -6793,7 +7251,9 @@
     "slack-bot",
     "subagents"
    ]
-  }
+  },
+  "source_url": "https://github.com/desplega-ai/agent-swarm",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "unifi-mcp",
@@ -6817,7 +7277,9 @@
     "unifi-network",
     "unifi-protect"
    ]
-  }
+  },
+  "source_url": "https://github.com/sirkirby/unifi-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "wassette",
@@ -6842,7 +7304,9 @@
     "wasm-component",
     "wasmtime"
    ]
-  }
+  },
+  "source_url": "https://github.com/microsoft/wassette",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "kubectl-mcp-server",
@@ -6870,7 +7334,9 @@
     "npm",
     "pypi"
    ]
-  }
+  },
+  "source_url": "https://github.com/rohitg00/kubectl-mcp-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-jetbrains",
@@ -6892,7 +7358,9 @@
     "mcp-server",
     "pycharm"
    ]
-  }
+  },
+  "source_url": "https://github.com/JetBrains/mcp-jetbrains",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "MCP-Bridge",
@@ -6916,7 +7384,9 @@
     "openai",
     "openai-api"
    ]
-  }
+  },
+  "source_url": "https://github.com/SecretiveShell/MCP-Bridge",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "memory-bank-mcp",
@@ -6941,7 +7411,9 @@
     "model-context-protocol",
     "windsurf"
    ]
-  }
+  },
+  "source_url": "https://github.com/alioshr/memory-bank-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "NornicDB",
@@ -6976,7 +7448,9 @@
     "vector-database",
     "vector-search"
    ]
-  }
+  },
+  "source_url": "https://github.com/orneryd/NornicDB",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "blender-plugin",
@@ -7010,7 +7484,9 @@
     "text-to-video",
     "textures"
    ]
-  }
+  },
+  "source_url": "https://github.com/scenario-labs/blender-plugin",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "iai-personal-memory-engine",
@@ -7045,7 +7521,9 @@
     "rag-alternative",
     "vector-database"
    ]
-  }
+  },
+  "source_url": "https://github.com/CodeAbra/iai-personal-memory-engine",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Android-MCP",
@@ -7065,7 +7543,9 @@
     "automation",
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/CursorTouch/Android-MCP",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "vmlx",
@@ -7100,7 +7580,9 @@
     "prefix-cache",
     "vmlx"
    ]
-  }
+  },
+  "source_url": "https://github.com/jjang-ai/vmlx",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "fauxnix",
@@ -7129,7 +7611,9 @@
     "translator",
     "windows"
    ]
-  }
+  },
+  "source_url": "https://github.com/20000419/fauxnix",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "MCP",
@@ -7147,7 +7631,9 @@
     "mcp",
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/jina-ai/MCP",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "memorix",
@@ -7183,7 +7669,9 @@
     "typescript",
     "windsurf"
    ]
-  }
+  },
+  "source_url": "https://github.com/AVIDS2/memorix",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ida-mcp-rs",
@@ -7206,7 +7694,9 @@
     "rust",
     "rust-lang"
    ]
-  }
+  },
+  "source_url": "https://github.com/blacktop/ida-mcp-rs",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "reverse-engineering-assistant",
@@ -7229,7 +7719,9 @@
     "mcp-server",
     "reverse-engineering"
    ]
-  }
+  },
+  "source_url": "https://github.com/cyberkaida/reverse-engineering-assistant",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "invisible_playwright_mcp",
@@ -7265,7 +7757,9 @@
     "web-scraping",
     "webscraping"
    ]
-  }
+  },
+  "source_url": "https://github.com/feder-cr/invisible_playwright_mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "hyper-mcp",
@@ -7287,7 +7781,9 @@
     "mcp-server",
     "oci"
    ]
-  }
+  },
+  "source_url": "https://github.com/hyper-mcp-rs/hyper-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "comfyui-mcp",
@@ -7323,7 +7819,9 @@
     "video-generation",
     "wan"
    ]
-  }
+  },
+  "source_url": "https://github.com/artokun/comfyui-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "glean",
@@ -7343,7 +7841,9 @@
     "rss",
     "rss-reader"
    ]
-  }
+  },
+  "source_url": "https://github.com/LeslieLeung/glean",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "VectorCode",
@@ -7365,7 +7865,9 @@
     "rag",
     "retrieval-augmented"
    ]
-  }
+  },
+  "source_url": "https://github.com/Davidyz/VectorCode",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "projectmem",
@@ -7401,7 +7903,9 @@
     "model-context-protocol",
     "python"
    ]
-  }
+  },
+  "source_url": "https://github.com/riponcm/projectmem",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "reddit-mcp-buddy",
@@ -7425,7 +7929,9 @@
     "reddit-api",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/karanb192/reddit-mcp-buddy",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "FinanceMCP",
@@ -7450,7 +7956,9 @@
     "stablecoin",
     "tushare"
    ]
-  }
+  },
+  "source_url": "https://github.com/guangxiangdebizi/FinanceMCP",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "MCP-Kali-Server",
@@ -7472,7 +7980,9 @@
     "pentesting",
     "security"
    ]
-  }
+  },
+  "source_url": "https://github.com/Wh0am123/MCP-Kali-Server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "aseprite-mcp",
@@ -7494,7 +8004,9 @@
     "game-development",
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/diivi/aseprite-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "figma-mcp-bridge",
@@ -7514,7 +8026,9 @@
     "mcp",
     "mcp-server"
    ]
-  }
+  },
+  "source_url": "https://github.com/gethopp/figma-mcp-bridge",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "rea",
@@ -7550,7 +8064,9 @@
     "touhou",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/morluto/rea",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ECC",
@@ -7574,7 +8090,9 @@
     "mcp",
     "productivity"
    ]
-  }
+  },
+  "source_url": "https://github.com/affaan-m/ECC",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "JavaGuide",
@@ -7603,7 +8121,9 @@
     "springai",
     "system-design"
    ]
-  }
+  },
+  "source_url": "https://github.com/Snailclimb/JavaGuide",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "cc-switch",
@@ -7638,7 +8158,9 @@
     "tauri",
     "wsl-support"
    ]
-  }
+  },
+  "source_url": "https://github.com/farion1231/cc-switch",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "graphify",
@@ -7674,7 +8196,9 @@
     "skills",
     "tree-sitter"
    ]
-  }
+  },
+  "source_url": "https://github.com/Graphify-Labs/graphify",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "browser-use",
@@ -7707,7 +8231,9 @@
     "web-automation",
     "web-scraping"
    ]
-  }
+  },
+  "source_url": "https://github.com/browser-use/browser-use",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "paperclip",
@@ -7743,7 +8269,9 @@
     "project-management",
     "workflow-automation"
    ]
-  }
+  },
+  "source_url": "https://github.com/paperclipai/paperclip",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Agent-Reach",
@@ -7776,7 +8304,9 @@
     "xiaohongshu",
     "youtube-transcript"
    ]
-  }
+  },
+  "source_url": "https://github.com/Panniantong/Agent-Reach",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "awesome-mcp-servers",
@@ -7794,7 +8324,9 @@
     "ai",
     "mcp"
    ]
-  }
+  },
+  "source_url": "https://github.com/punkpeye/awesome-mcp-servers",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "crawl4ai",
@@ -7825,7 +8357,9 @@
     "web-crawling",
     "web-scraping"
    ]
-  }
+  },
+  "source_url": "https://github.com/unclecode/crawl4ai",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "OmniRoute",
@@ -7861,7 +8395,9 @@
     "qwen",
     "token-saver"
    ]
-  }
+  },
+  "source_url": "https://github.com/cheaper-inference/OmniRoute",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "netdata",
@@ -7897,7 +8433,9 @@
     "postgresql",
     "prometheus"
    ]
-  }
+  },
+  "source_url": "https://github.com/netdata/netdata",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "headroom",
@@ -7933,7 +8471,9 @@
     "tokens",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/headroomlabs-ai/headroom",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "hyperframes",
@@ -7964,7 +8504,9 @@
     "typescript",
     "video-editor"
    ]
-  }
+  },
+  "source_url": "https://github.com/heygen-com/hyperframes",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ai-engineering-from-scratch",
@@ -8000,7 +8542,9 @@
     "tutorial",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mempalace",
@@ -8022,7 +8566,9 @@
     "memory",
     "python"
    ]
-  }
+  },
+  "source_url": "https://github.com/MemPalace/mempalace",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ai-agent-book",
@@ -8051,7 +8597,9 @@
     "rag",
     "reinforcement-learning"
    ]
-  }
+  },
+  "source_url": "https://github.com/bojieli/ai-agent-book",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "goose",
@@ -8071,7 +8619,9 @@
     "ai-agents",
     "mcp"
    ]
-  }
+  },
+  "source_url": "https://github.com/aaif-goose/goose",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "LocalAI",
@@ -8105,7 +8655,9 @@
     "text-generation",
     "tts"
    ]
-  }
+  },
+  "source_url": "https://github.com/mudler/LocalAI",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "nanobot",
@@ -8141,7 +8693,9 @@
     "webui",
     "workflow-automation"
    ]
-  }
+  },
+  "source_url": "https://github.com/HKUDS/nanobot",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "agentic-awesome-skills",
@@ -8177,7 +8731,9 @@
     "mcp",
     "skill-library"
    ]
-  }
+  },
+  "source_url": "https://github.com/sickn33/agentic-awesome-skills",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "JeecgBoot",
@@ -8213,7 +8769,9 @@
     "springcloud",
     "vue3"
    ]
-  }
+  },
+  "source_url": "https://github.com/jeecgboot/JeecgBoot",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "CowAgent",
@@ -8246,7 +8804,9 @@
     "personal-agent",
     "skills"
    ]
-  }
+  },
+  "source_url": "https://github.com/zhayujie/CowAgent",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "siyuan",
@@ -8272,7 +8832,9 @@
     "siyuan",
     "workspace"
    ]
-  }
+  },
+  "source_url": "https://github.com/siyuan-note/siyuan",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "LibreChat",
@@ -8308,7 +8870,9 @@
     "vision",
     "webui"
    ]
-  }
+  },
+  "source_url": "https://github.com/LibreChat-AI/LibreChat",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "claude-plugins-official",
@@ -8327,7 +8891,9 @@
     "mcp",
     "skills"
    ]
-  }
+  },
+  "source_url": "https://github.com/anthropics/claude-plugins-official",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "AstrBot",
@@ -8360,7 +8926,9 @@
     "qqbot",
     "telegram"
    ]
-  }
+  },
+  "source_url": "https://github.com/AstrBotDevs/AstrBot",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "kong",
@@ -8396,7 +8964,9 @@
     "reverse-proxy",
     "serverless"
    ]
-  }
+  },
+  "source_url": "https://github.com/Kong/kong",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "openhuman",
@@ -8424,7 +8994,9 @@
     "second-brain",
     "tauri"
    ]
-  }
+  },
+  "source_url": "https://github.com/tinyhumansai/openhuman",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "agents",
@@ -8460,7 +9032,9 @@
     "pi-coding-agent",
     "subagents"
    ]
-  }
+  },
+  "source_url": "https://github.com/wshobson/agents",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Codewhale",
@@ -8490,7 +9064,9 @@
     "terminal",
     "tui"
    ]
-  }
+  },
+  "source_url": "https://github.com/codewhale-hq/Codewhale",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "drawdb",
@@ -8526,7 +9102,9 @@
     "sql-server",
     "sqlite"
    ]
-  }
+  },
+  "source_url": "https://github.com/drawdb-io/drawdb",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mindshub",
@@ -8557,7 +9135,9 @@
     "mcp",
     "mindsdb"
    ]
-  }
+  },
+  "source_url": "https://github.com/mindsdb/mindshub",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ai-engineering-hub",
@@ -8579,7 +9159,9 @@
     "mcp",
     "rag"
    ]
-  }
+  },
+  "source_url": "https://github.com/patchy631/ai-engineering-hub",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "PDFMathTranslate",
@@ -8614,7 +9196,9 @@
     "translation",
     "zotero"
    ]
-  }
+  },
+  "source_url": "https://github.com/PDFMathTranslate/PDFMathTranslate",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "oh-my-pi",
@@ -8645,7 +9229,9 @@
     "tui",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/can1357/oh-my-pi",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Vibe-Trading",
@@ -8671,7 +9257,9 @@
     "quantitative-finance",
     "trading"
    ]
-  }
+  },
+  "source_url": "https://github.com/HKUDS/Vibe-Trading",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "QwenPaw",
@@ -8703,7 +9291,9 @@
     "super-agent",
     "webui"
    ]
-  }
+  },
+  "source_url": "https://github.com/agentscope-ai/QwenPaw",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Anthropic-Cybersecurity-Skills",
@@ -8739,7 +9329,9 @@
     "threat-hunting",
     "threat-intelligence"
    ]
-  }
+  },
+  "source_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "agentscope",
@@ -8767,7 +9359,9 @@
     "voice-agent",
     "voice-assistant"
    ]
-  }
+  },
+  "source_url": "https://github.com/agentscope-ai/agentscope",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "nacos",
@@ -8799,7 +9393,9 @@
     "skills",
     "spring-cloud"
    ]
-  }
+  },
+  "source_url": "https://github.com/alibaba/nacos",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-for-blender",
@@ -8826,7 +9422,9 @@
     "model-context-protocol",
     "python"
    ]
-  }
+  },
+  "source_url": "https://github.com/ahujasid/mcp-for-blender",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "code-review-graph",
@@ -8854,7 +9452,9 @@
     "static-analysis",
     "tree-sitter"
    ]
-  }
+  },
+  "source_url": "https://github.com/tirth8205/code-review-graph",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "xiaozhi-esp32",
@@ -8873,7 +9473,9 @@
     "esp32",
     "mcp"
    ]
-  }
+  },
+  "source_url": "https://github.com/78/xiaozhi-esp32",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "invisible_dots",
@@ -8909,7 +9511,9 @@
     "self-hosted",
     "stealth-browser"
    ]
-  }
+  },
+  "source_url": "https://github.com/feder-cr/invisible_dots",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "composio",
@@ -8942,7 +9546,9 @@
     "sse",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/ComposioHQ/composio",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "page-agent",
@@ -8966,7 +9572,9 @@
     "typescript",
     "web"
    ]
-  }
+  },
+  "source_url": "https://github.com/alibaba/page-agent",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "repomix",
@@ -9002,7 +9610,9 @@
     "openai",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/yamadashy/repomix",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "qwen-code",
@@ -9030,7 +9640,9 @@
     "terminal",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/QwenLM/qwen-code",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "dbx",
@@ -9064,7 +9676,9 @@
     "tauri",
     "vue"
    ]
-  }
+  },
+  "source_url": "https://github.com/t8y2/dbx",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "fastmcp",
@@ -9089,7 +9703,9 @@
     "model-context-protocol",
     "python"
    ]
-  }
+  },
+  "source_url": "https://github.com/PrefectHQ/fastmcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "haystack",
@@ -9125,7 +9741,9 @@
     "retrieval-augmented-generation",
     "semantic-search"
    ]
-  }
+  },
+  "source_url": "https://github.com/deepset-ai/haystack",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "kratos",
@@ -9155,7 +9773,9 @@
     "microservices",
     "protobuf"
    ]
-  }
+  },
+  "source_url": "https://github.com/go-kratos/kratos",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "open-seo",
@@ -9182,7 +9802,9 @@
     "seo-tools",
     "site-audit"
    ]
-  }
+  },
+  "source_url": "https://github.com/every-app/open-seo",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "gin-vue-admin",
@@ -9218,7 +9840,9 @@
     "vue-admin",
     "vue3"
    ]
-  }
+  },
+  "source_url": "https://github.com/flipped-aurora/gin-vue-admin",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "SkillSpector",
@@ -9245,7 +9869,9 @@
     "security-workflow",
     "supply-chain-security"
    ]
-  }
+  },
+  "source_url": "https://github.com/NVIDIA/SkillSpector",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "awesome-ai-engineering",
@@ -9280,7 +9906,9 @@
     "prompt-engineering",
     "rag"
    ]
-  }
+  },
+  "source_url": "https://github.com/dipakkr/awesome-ai-engineering",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "jcode",
@@ -9308,7 +9936,9 @@
     "terminal",
     "tui"
    ]
-  }
+  },
+  "source_url": "https://github.com/1jehuang/jcode",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "excelize",
@@ -9344,7 +9974,9 @@
     "xlsx",
     "xml"
    ]
-  }
+  },
+  "source_url": "https://github.com/qax-os/excelize",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "rocketride-server",
@@ -9370,7 +10002,9 @@
     "typescript",
     "vscode-extension"
    ]
-  }
+  },
+  "source_url": "https://github.com/rocketride-org/rocketride-server",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "browser-harness",
@@ -9406,7 +10040,9 @@
     "vps-agent",
     "web-automation"
    ]
-  }
+  },
+  "source_url": "https://github.com/browser-use/browser-harness",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "WeClone",
@@ -9431,7 +10067,9 @@
     "personal-ai",
     "telegram"
    ]
-  }
+  },
+  "source_url": "https://github.com/xming521/WeClone",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "openGym",
@@ -9467,7 +10105,9 @@
     "weightlifting",
     "workout-tracker"
    ]
-  }
+  },
+  "source_url": "https://github.com/DuarteSantos8/openGym",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "openfang",
@@ -9491,7 +10131,9 @@
     "operating-system",
     "rust"
    ]
-  }
+  },
+  "source_url": "https://github.com/RightNow-AI/openfang",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ai-berkshire",
@@ -9527,7 +10169,9 @@
     "value-investing",
     "warren-buffett"
    ]
-  }
+  },
+  "source_url": "https://github.com/xbtlin/ai-berkshire",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-toolbox",
@@ -9563,7 +10207,9 @@
     "spanner",
     "tidb"
    ]
-  }
+  },
+  "source_url": "https://github.com/googleapis/mcp-toolbox",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "awesome-ai-apps",
@@ -9584,7 +10230,9 @@
     "llm",
     "mcp"
    ]
-  }
+  },
+  "source_url": "https://github.com/Arindam200/awesome-ai-apps",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Figma-Context-MCP",
@@ -9605,7 +10253,9 @@
     "mcp",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/GLips/Figma-Context-MCP",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "unity-mcp",
@@ -9637,7 +10287,9 @@
     "unity3d",
     "videogames"
    ]
-  }
+  },
+  "source_url": "https://github.com/CoplayDev/unity-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "electerm",
@@ -9673,7 +10325,9 @@
     "windows-app",
     "zmodem"
    ]
-  }
+  },
+  "source_url": "https://github.com/electerm/electerm",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "codex-chatgpt-web",
@@ -9699,7 +10353,9 @@
     "responses-api",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/miuuyy/codex-chatgpt-web",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "casdoor",
@@ -9735,7 +10391,9 @@
     "sso",
     "webauthn"
    ]
-  }
+  },
+  "source_url": "https://github.com/casdoor/casdoor",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "palmier-pro",
@@ -9758,7 +10416,9 @@
     "swift",
     "video-editor"
    ]
-  }
+  },
+  "source_url": "https://github.com/palmier-io/palmier-pro",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "BrowserOS",
@@ -9789,7 +10449,9 @@
     "ollama",
     "windows"
    ]
-  }
+  },
+  "source_url": "https://github.com/browseros-ai/BrowserOS",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "EverOS",
@@ -9822,7 +10484,9 @@
     "rag",
     "skills"
    ]
-  }
+  },
+  "source_url": "https://github.com/EverMind-AI/EverOS",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "gateway",
@@ -9853,7 +10517,9 @@
     "model-router",
     "openai"
    ]
-  }
+  },
+  "source_url": "https://github.com/Portkey-AI/gateway",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "note-gen",
@@ -9885,7 +10551,9 @@
     "tauri",
     "webdav"
    ]
-  }
+  },
+  "source_url": "https://github.com/codexu/note-gen",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "claude-context",
@@ -9921,7 +10589,9 @@
     "voyage-ai",
     "vscode-extension"
    ]
-  }
+  },
+  "source_url": "https://github.com/zilliztech/claude-context",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "solidcraft",
@@ -9946,7 +10616,9 @@
     "step",
     "wasm"
    ]
-  }
+  },
+  "source_url": "https://github.com/tangency-labs/solidcraft",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "MemOS",
@@ -9981,7 +10653,9 @@
     "skills",
     "token-savings"
    ]
-  }
+  },
+  "source_url": "https://github.com/MemTensor/MemOS",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "kubeshark",
@@ -10017,7 +10691,9 @@
     "sre",
     "wireshark"
    ]
-  }
+  },
+  "source_url": "https://github.com/kubeshark/kubeshark",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "loop-engineering",
@@ -10050,7 +10726,9 @@
     "mcp",
     "prompt-engineering"
    ]
-  }
+  },
+  "source_url": "https://github.com/cobusgreyling/loop-engineering",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Horizon",
@@ -10074,7 +10752,9 @@
     "python",
     "webhook"
    ]
-  }
+  },
+  "source_url": "https://github.com/Thysrael/Horizon",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "valuecell",
@@ -10102,7 +10782,9 @@
     "react",
     "stock-market"
    ]
-  }
+  },
+  "source_url": "https://github.com/ValueCell-ai/valuecell",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "voltagent",
@@ -10138,7 +10820,9 @@
     "tts",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/VoltAgent/voltagent",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Windows-MCP",
@@ -10160,7 +10844,9 @@
     "windows",
     "windows-automation"
    ]
-  }
+  },
+  "source_url": "https://github.com/CursorTouch/Windows-MCP",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "amazing-qr",
@@ -10186,7 +10872,9 @@
     "qrcode-generator",
     "skills"
    ]
-  }
+  },
+  "source_url": "https://github.com/x-hw/amazing-qr",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "astrid",
@@ -10212,7 +10900,9 @@
     "wasm",
     "webassembly"
    ]
-  }
+  },
+  "source_url": "https://github.com/astrid-runtime/astrid",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "DesktopCommanderMCP",
@@ -10237,7 +10927,9 @@
     "terminal-automation",
     "vibe-coding"
    ]
-  }
+  },
+  "source_url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "autoclip",
@@ -10268,7 +10960,9 @@
     "xiaohongshu",
     "youtube-shorts"
    ]
-  }
+  },
+  "source_url": "https://github.com/zhouxiaoka/autoclip",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "kaneo",
@@ -10295,7 +10989,9 @@
     "self-hosted",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/usekaneo/kaneo",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "atlas",
@@ -10326,7 +11022,9 @@
     "self-hosted",
     "skills"
    ]
-  }
+  },
+  "source_url": "https://github.com/pacifio/atlas",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "universal-modder",
@@ -10352,7 +11050,9 @@
     "reverse-engineering",
     "tmodloader"
    ]
-  }
+  },
+  "source_url": "https://github.com/rehan-remade/universal-modder",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "OpenBot",
@@ -10375,7 +11075,9 @@
     "generative-ui",
     "mcp"
    ]
-  }
+  },
+  "source_url": "https://github.com/CopilotKit/OpenBot",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "harness-sdk",
@@ -10411,7 +11113,9 @@
     "strands-agents",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/strands-agents/harness-sdk",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "AIHOT",
@@ -10439,7 +11143,9 @@
     "self-hosted",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/KKKKhazix/AIHOT",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "astron-agent",
@@ -10474,7 +11180,9 @@
     "workflow",
     "workflow-engine"
    ]
-  }
+  },
+  "source_url": "https://github.com/iflytek/astron-agent",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "adk-go",
@@ -10504,7 +11212,9 @@
     "sdk",
     "vertex-ai"
    ]
-  }
+  },
+  "source_url": "https://github.com/google/adk-go",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "evolver",
@@ -10540,7 +11250,9 @@
     "skill-library",
     "skills"
    ]
-  }
+  },
+  "source_url": "https://github.com/EvoMap/evolver",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "FileCodeBox",
@@ -10563,7 +11275,9 @@
     "tool",
     "vue"
    ]
-  }
+  },
+  "source_url": "https://github.com/vastsa/FileCodeBox",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "rikkahub",
@@ -10589,7 +11303,9 @@
     "mcp",
     "openrouter"
    ]
-  }
+  },
+  "source_url": "https://github.com/rikkahub/rikkahub",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-agent",
@@ -10613,7 +11329,9 @@
     "model-context-protocol",
     "python"
    ]
-  }
+  },
+  "source_url": "https://github.com/lastmile-ai/mcp-agent",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "git-mcp",
@@ -10638,7 +11356,9 @@
     "llm",
     "mcp"
    ]
-  }
+  },
+  "source_url": "https://github.com/idosal/git-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "superpowers-zh",
@@ -10670,7 +11390,9 @@
     "tdd",
     "trae"
    ]
-  }
+  },
+  "source_url": "https://github.com/jnMetaCode/superpowers-zh",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "awesome-agentic-ai-zh",
@@ -10705,7 +11427,9 @@
     "trilingual",
     "tutorial"
    ]
-  }
+  },
+  "source_url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "CyberStrikeAI",
@@ -10730,7 +11454,9 @@
     "mcp",
     "pentesting-tools"
    ]
-  }
+  },
+  "source_url": "https://github.com/AIPentest/CyberStrikeAI",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "gentle-ai",
@@ -10763,7 +11489,9 @@
     "pi",
     "spec-driven-development"
    ]
-  }
+  },
+  "source_url": "https://github.com/Gentleman-Programming/gentle-ai",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "repowise",
@@ -10794,7 +11522,9 @@
     "static-analysis",
     "technical-debt"
    ]
-  }
+  },
+  "source_url": "https://github.com/repowise-dev/repowise",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Upsonic",
@@ -10825,7 +11555,9 @@
     "ucp",
     "universal-commerce-protocol"
    ]
-  }
+  },
+  "source_url": "https://github.com/Upsonic/Upsonic",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "flyte",
@@ -10856,7 +11588,9 @@
     "sovereign-infrastructure",
     "workflow"
    ]
-  }
+  },
+  "source_url": "https://github.com/flyteorg/flyte",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "codex-with-chatgpt",
@@ -10878,7 +11612,9 @@
     "model-context-protocol",
     "oauth"
    ]
-  }
+  },
+  "source_url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Yuxi",
@@ -10914,7 +11650,9 @@
     "self-hosted",
     "vue"
    ]
-  }
+  },
+  "source_url": "https://github.com/xerrors/Yuxi",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "PI-Desktop",
@@ -10945,7 +11683,9 @@
     "rust",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/vastsa/PI-Desktop",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "opensquilla",
@@ -10972,7 +11712,9 @@
     "python",
     "skills"
    ]
-  }
+  },
+  "source_url": "https://github.com/TokenRhythm/opensquilla",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "cursor-talk-to-figma-mcp",
@@ -11004,7 +11746,9 @@
     "mcp",
     "model-context-protocol"
    ]
-  }
+  },
+  "source_url": "https://github.com/grab/cursor-talk-to-figma-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "open-multi-agent",
@@ -11039,7 +11783,9 @@
     "self-hosted",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/open-multi-agent/open-multi-agent",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "openpencil",
@@ -11075,7 +11821,9 @@
     "vibecoding",
     "vibedesign"
    ]
-  }
+  },
+  "source_url": "https://github.com/ZSeven-W/openpencil",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "whatsapp-mcp",
@@ -11095,7 +11843,9 @@
     "whatsapp",
     "whatsapp-api"
    ]
-  }
+  },
+  "source_url": "https://github.com/lharries/whatsapp-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "awesome-mcp-clients",
@@ -11113,7 +11863,9 @@
     "clients",
     "mcp"
    ]
-  }
+  },
+  "source_url": "https://github.com/punkpeye/awesome-mcp-clients",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "jscpd",
@@ -11149,7 +11901,9 @@
     "static-analysis",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/kucherenko/jscpd",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "godot-mcp",
@@ -11168,7 +11922,9 @@
     "godot",
     "mcp"
    ]
-  }
+  },
+  "source_url": "https://github.com/Coding-Solo/godot-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "qiaomu-anything-to-notebooklm",
@@ -11189,7 +11945,9 @@
     "notebooklm",
     "skill"
    ]
-  }
+  },
+  "source_url": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mission-control",
@@ -11220,7 +11978,9 @@
     "task-management",
     "typescript"
    ]
-  }
+  },
+  "source_url": "https://github.com/builderz-labs/mission-control",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "camel",
@@ -11252,7 +12012,9 @@
     "spring-boot",
     "yaml"
    ]
-  }
+  },
+  "source_url": "https://github.com/apache/camel",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "deepchat",
@@ -11286,7 +12048,9 @@
     "openai-client",
     "openclaw"
    ]
-  }
+  },
+  "source_url": "https://github.com/ThinkInAIXYZ/deepchat",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "awesome-agent-skills",
@@ -11318,7 +12082,9 @@
     "skill-md",
     "vscode"
    ]
-  }
+  },
+  "source_url": "https://github.com/heilcheng/awesome-agent-skills",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "magic-mcp",
@@ -11342,7 +12108,9 @@
     "tailwindcss",
     "ui-components"
    ]
-  }
+  },
+  "source_url": "https://github.com/21st-dev/magic-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ouroboros",
@@ -11377,7 +12145,9 @@
     "skill",
     "skills"
    ]
-  }
+  },
+  "source_url": "https://github.com/Q00/ouroboros",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "sandbox",
@@ -11400,7 +12170,9 @@
     "sandbox",
     "shell"
    ]
-  }
+  },
+  "source_url": "https://github.com/agent-infra/sandbox",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "hister",
@@ -11427,7 +12199,9 @@
     "semantic-search",
     "web"
    ]
-  }
+  },
+  "source_url": "https://github.com/asciimoo/hister",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "learn-ai-engineering",
@@ -11455,7 +12229,9 @@
     "prompt-engineering",
     "rag"
    ]
-  }
+  },
+  "source_url": "https://github.com/ashishps1/learn-ai-engineering",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "LobsterAI",
@@ -11488,7 +12264,9 @@
     "react",
     "tyepscript"
    ]
-  }
+  },
+  "source_url": "https://github.com/netease-youdao/LobsterAI",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "nexent",
@@ -11516,7 +12294,9 @@
     "multi-agent",
     "rag"
    ]
-  }
+  },
+  "source_url": "https://github.com/ModelEngine-Group/nexent",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-atlassian",
@@ -11536,7 +12316,9 @@
     "jira",
     "mcp"
    ]
-  }
+  },
+  "source_url": "https://github.com/sooperset/mcp-atlassian",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "macro",
@@ -11572,7 +12354,9 @@
     "typescript",
     "workspace"
    ]
-  }
+  },
+  "source_url": "https://github.com/macro-inc/macro",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "claude-scholar",
@@ -11600,7 +12384,9 @@
     "paper-writing",
     "zotero"
    ]
-  }
+  },
+  "source_url": "https://github.com/Galaxy-Dawn/claude-scholar",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "agentgateway",
@@ -11627,7 +12413,9 @@
     "rust",
     "service-mesh"
    ]
-  }
+  },
+  "source_url": "https://github.com/agentgateway/agentgateway",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ruoyi-ai",
@@ -11648,7 +12436,9 @@
     "mcp",
     "rag"
    ]
-  }
+  },
+  "source_url": "https://github.com/ageerle/ruoyi-ai",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "UltraRAG",
@@ -11681,7 +12471,9 @@
     "vllm",
     "vlm"
    ]
-  }
+  },
+  "source_url": "https://github.com/OpenBMB/UltraRAG",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "shaders",
@@ -11706,7 +12498,9 @@
     "vue",
     "webgpu-shaders"
    ]
-  }
+  },
+  "source_url": "https://github.com/shader-effects-inc/shaders",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "openagent",
@@ -11741,7 +12535,9 @@
     "openclaw",
     "rag"
    ]
-  }
+  },
+  "source_url": "https://github.com/the-open-agent/openagent",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ai-agents-from-zero",
@@ -11774,7 +12570,9 @@
     "skills",
     "tutorial"
    ]
-  }
+  },
+  "source_url": "https://github.com/didilili/ai-agents-from-zero",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "AiSOC",
@@ -11810,7 +12608,9 @@
     "threat-detection",
     "threat-intelligence"
    ]
-  }
+  },
+  "source_url": "https://github.com/beenuar/AiSOC",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Agentic-Bug-Hunter",
@@ -11846,7 +12646,9 @@
     "security-tools",
     "vulnerability-scanner"
    ]
-  }
+  },
+  "source_url": "https://github.com/awarexone/Agentic-Bug-Hunter",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Peekaboo",
@@ -11867,7 +12669,9 @@
     "screenshots",
     "swift"
    ]
-  }
+  },
+  "source_url": "https://github.com/openclaw/Peekaboo",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "open-science",
@@ -11903,7 +12707,9 @@
     "scientific-computing",
     "scientific-research"
    ]
-  }
+  },
+  "source_url": "https://github.com/aipoch/open-science",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ha-mcp",
@@ -11927,7 +12733,9 @@
     "mcp",
     "model-context-protocol"
    ]
-  }
+  },
+  "source_url": "https://github.com/homeassistant-ai/ha-mcp",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "unidbg",
@@ -11959,7 +12767,9 @@
     "whale",
     "xhook"
    ]
-  }
+  },
+  "source_url": "https://github.com/zhkl0228/unidbg",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "fallow",
@@ -11993,7 +12803,9 @@
     "typescript",
     "unused-code"
    ]
-  }
+  },
+  "source_url": "https://github.com/fallow-rs/fallow",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "astron-rpa",
@@ -12025,7 +12837,9 @@
     "security-compliance",
     "self-hosted"
    ]
-  }
+  },
+  "source_url": "https://github.com/iflytek/astron-rpa",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-ui",
@@ -12047,7 +12861,9 @@
     "ui",
     "web"
    ]
-  }
+  },
+  "source_url": "https://github.com/MCP-UI-Org/mcp-ui",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "agent-device",
@@ -12080,7 +12896,9 @@
     "testing",
     "xcuitest"
    ]
-  }
+  },
+  "source_url": "https://github.com/callstack/agent-device",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "PPTAgent",
@@ -12103,7 +12921,9 @@
     "presentation",
     "slide"
    ]
-  }
+  },
+  "source_url": "https://github.com/icip-cas/PPTAgent",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "chat-on-steroids",
@@ -12129,7 +12949,9 @@
     "multi-agent",
     "windows"
    ]
-  }
+  },
+  "source_url": "https://github.com/totec448-spec/chat-on-steroids",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcporter",
@@ -12148,7 +12970,9 @@
     "mcp",
     "ts-api"
    ]
-  }
+  },
+  "source_url": "https://github.com/openclaw/mcporter",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ag2",
@@ -12180,7 +13004,9 @@
     "open-source",
     "python"
    ]
-  }
+  },
+  "source_url": "https://github.com/ag2ai/ag2",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "gaianet-node",
@@ -12209,7 +13035,9 @@
     "ml",
     "web3"
    ]
-  }
+  },
+  "source_url": "https://github.com/GaiaNet-AI/gaianet-node",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "DeskcommCRM",
@@ -12245,7 +13073,9 @@
     "whatsapp",
     "whatsapp-api"
    ]
-  }
+  },
+  "source_url": "https://github.com/melgarafael/DeskcommCRM",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mockserver-monorepo",
@@ -12276,7 +13106,9 @@
     "ruby-client",
     "testing"
    ]
-  }
+  },
+  "source_url": "https://github.com/mock-server/mockserver-monorepo",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "aci",
@@ -12306,7 +13138,9 @@
     "tools",
     "vibeops"
    ]
-  }
+  },
+  "source_url": "https://github.com/aipotheosis-labs/aci",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "nono",
@@ -12336,7 +13170,9 @@
     "supply-chain-security",
     "zero-trust"
    ]
-  }
+  },
+  "source_url": "https://github.com/nolabs-ai/nono",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "mcp-context-forge",
@@ -12372,7 +13208,9 @@
     "python",
     "tools"
    ]
-  }
+  },
+  "source_url": "https://github.com/IBM/mcp-context-forge",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "claude-code-guide",
@@ -12408,7 +13246,9 @@
     "mcp-tools",
     "vscode-extension"
    ]
-  }
+  },
+  "source_url": "https://github.com/zebbern/claude-code-guide",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "koog",
@@ -12444,7 +13284,9 @@
     "openai",
     "spring"
    ]
-  }
+  },
+  "source_url": "https://github.com/JetBrains/koog",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "prest",
@@ -12480,7 +13322,9 @@
     "sql",
     "timescaledb"
    ]
-  }
+  },
+  "source_url": "https://github.com/prest/prest",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "AgenticResourceRegistry",
@@ -12514,7 +13358,9 @@
     "self-hosted",
     "skills"
    ]
-  }
+  },
+  "source_url": "https://github.com/AgenticResourceRegistry/AgenticResourceRegistry",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "m_flow",
@@ -12544,7 +13390,9 @@
     "semantic-memory",
     "vector-search"
    ]
-  }
+  },
+  "source_url": "https://github.com/FlowElement-xinliuyuansu/m_flow",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "basic-memory",
@@ -12575,7 +13423,9 @@
     "productivity",
     "python"
    ]
-  }
+  },
+  "source_url": "https://github.com/basicmachines-co/basic-memory",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "ragent",
@@ -12598,7 +13448,9 @@
     "rag",
     "springai"
    ]
-  }
+  },
+  "source_url": "https://github.com/nageoffer/ragent",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "learn-agentic-ai",
@@ -12634,7 +13486,9 @@
     "redis",
     "serverless-containers"
    ]
-  }
+  },
+  "source_url": "https://github.com/panaversity/learn-agentic-ai",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "agent-desktop",
@@ -12662,7 +13516,9 @@
     "mcp",
     "rust"
    ]
-  }
+  },
+  "source_url": "https://github.com/vercel-labs/agent-desktop",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "agent-memory",
@@ -12690,7 +13546,9 @@
     "retrieval",
     "sqlite"
    ]
-  }
+  },
+  "source_url": "https://github.com/tigerless-labs/agent-memory",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Easel",
@@ -12715,7 +13573,9 @@
     "social-media",
     "social-media-management"
    ]
-  }
+  },
+  "source_url": "https://github.com/ZJU-REAL/Easel",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "zvec-grep",
@@ -12741,7 +13601,9 @@
     "semantic-search",
     "vector-search"
    ]
-  }
+  },
+  "source_url": "https://github.com/zvec-ai/zvec-grep",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "telegram-search",
@@ -12763,7 +13625,9 @@
     "telegram",
     "telegram-bot"
    ]
-  }
+  },
+  "source_url": "https://github.com/groupultra/telegram-search",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "kagent",
@@ -12784,7 +13648,9 @@
     "devops",
     "mcp"
    ]
-  }
+  },
+  "source_url": "https://github.com/kagent-dev/kagent",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "notfair-plugin",
@@ -12810,7 +13676,9 @@
     "metaads",
     "seo"
    ]
-  }
+  },
+  "source_url": "https://github.com/nowork-studio/notfair-plugin",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "playwriter",
@@ -12828,7 +13696,9 @@
     "mcp",
     "playwright"
    ]
-  }
+  },
+  "source_url": "https://github.com/remorses/playwriter",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "awesome-openclaw-agents",
@@ -12864,7 +13734,9 @@
     "submit-your-agent",
     "telegram-bot"
    ]
-  }
+  },
+  "source_url": "https://github.com/mergisi/awesome-openclaw-agents",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "Continuous-Claude-v3",
@@ -12889,7 +13761,9 @@
     "claude-skills",
     "mcp"
    ]
-  }
+  },
+  "source_url": "https://github.com/parcadei/Continuous-Claude-v3",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "appllama-skills",
@@ -12924,7 +13798,9 @@
     "skills",
     "ui-design"
    ]
-  }
+  },
+  "source_url": "https://github.com/Appllama/appllama-skills",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "antigravity-sdk-python",
@@ -12949,7 +13825,9 @@
     "python-sdk",
     "skills"
    ]
-  }
+  },
+  "source_url": "https://github.com/google-antigravity/antigravity-sdk-python",
+  "last_verified_date": "2026-11-01"
  },
  {
   "name": "dembrandt",
@@ -12985,6 +13863,8 @@
     "token-drift",
     "ui-audit"
    ]
-  }
+  },
+  "source_url": "https://github.com/dembrandt/dembrandt",
+  "last_verified_date": "2026-11-01"
  }
 ]
