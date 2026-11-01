@@ -1,0 +1,52 @@
+name: Submit a tool
+description: 推荐一个 MCP 服务器或代理工具 / Suggest an MCP server or agent tool
+title: "Tool: "
+labels: ["tool-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请只提交公开的 GitHub 仓库。目录只记录 GitHub API 返回的星标、最近推送、许可证和描述，不会编造这些数据。收录免费，本站没有付款入口。
+        Submit a public GitHub repository only. The directory records stars, the latest push, license, and description returned by the GitHub API. It does not invent those fields. Listing is free, and this site does not take payment.
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub repository (owner/name)
+      description: 公开仓库，形式为 owner/name / Public repository as owner/name
+      placeholder: modelcontextprotocol/servers
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category / 分类
+      description: 编者分类，可以在审核时调整 / Editorial category. Maintainers may adjust it.
+      options:
+        - protocol
+        - coding-agents
+        - agent-frameworks
+        - browser
+        - devtools
+        - data
+        - search
+        - cloud
+        - saas
+        - design
+        - local
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What does it do? / 它做什么？
+      description: 用你自己的话写。维护者仍会对照 GitHub 上的公开描述再决定是否收录。
+      placeholder: Official MCP server for ...
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation / 确认
+      options:
+        - label: 这个仓库是公开的，我不是在申请付费位置。 / This repository is public, and I am not asking for a paid placement.
+          required: true
